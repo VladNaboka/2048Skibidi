@@ -60,6 +60,12 @@ public class GameManager : MonoBehaviour
         board.enabled = false;
         gameOver.interactable = true;
         StartCoroutine(Fade(gameOver, 1f, 1f));
+        StartCoroutine(adYandex());
+    }
+
+    IEnumerator adYandex()
+    {
+        yield return new WaitForSeconds(1.1f);
         YandexGame.FullscreenShow();
     }
     public void Menu()
@@ -117,5 +123,4 @@ public class GameManager : MonoBehaviour
     {
         return PlayerPrefs.GetInt("hiscore", 0);
     }
-
 }
