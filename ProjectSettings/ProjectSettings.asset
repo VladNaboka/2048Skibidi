@@ -44,8 +44,8 @@ PlayerSettings:
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 720
+  defaultScreenHeightWeb: 1280
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   m_MTRendering: 1
@@ -492,7 +492,7 @@ PlayerSettings:
     BANNER_STATIC_2: 
     BAR_COLOR: 5F9EA0
     SET_1_TO_DISABLE_FIXEDSCREEN_ON_DESKTOP: 
-    SET_1_TO_DISABLE_FIXEDSCREEN_ON_MOBILE: 1
+    SET_1_TO_DISABLE_FIXEDSCREEN_ON_MOBILE: 
     SET_1_TO_DISABLE_SHADOWS: 
   mobileMTRendering:
     Android: 1

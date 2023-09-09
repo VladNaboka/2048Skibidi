@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartSound()
     {
+        YandexGame.FullscreenShow();
         SoundManager.instance.Play("Click");
         SetScore(PlayerPrefs.GetInt("scoreReward"));
     }
